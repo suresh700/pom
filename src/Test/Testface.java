@@ -20,6 +20,7 @@ public class Testface
 		driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
 		Pomface f=new  Pomface(driver);
 		f.day();
+		System.out.println("my commit");
 	}
 
 }
